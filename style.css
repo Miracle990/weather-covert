@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     text-decoration: none;
+}
+
+body{
+    width: 100%;
+}
+
+header{
+    width: 100%;
+    height: fit-content;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+.head{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 15px;
+    
+}
+           
+.head b{
+    font-size: 30px;
+    font-weight: 100;
+}
+
+main{
+  
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(sky.jpg);
+    background-position: center center;
+    background-size: cover;
+    gap: 30px;
+}
+
+
+.note{
+    padding: 10px 17px;
+}
+
+.note h2{
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+}
+
+
+.fel{
+    border:5px solid red;
+   border-radius: 50%;
+   background-color: white;
+   padding: 80px;
+   display: flex;
+   
+}
+
+
+.cel{
+    border:5px solid black;
+    border-radius: 50%;
+    background-color: white;
+    padding: 80px;
+}
+
+
+
+.search-group{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 20px  ;
+}
+
+.search-group input{
+    width: 60%;
+    padding: 20px ;
+    border-radius: 100px;
+    border: 6px solid blue;
+    font-size: 20px;
+    
+    color:black;
+}
+ 
+
+button{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 6px solid orangered;
+    font-size: 20px;
+    padding: 20px ;
+    border-radius: 100px;
+    color:black;
+
+}
+
+small{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+small img{
+    object-fit: contain;
+}
+
+footer{
+    width: 100%;
+    padding: 20px 0px;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    color: black;
+
+}
+
+
+
+footer p{
+    font-size: 20px;
+}
